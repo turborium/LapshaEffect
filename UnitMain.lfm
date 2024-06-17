@@ -1,0 +1,25 @@
+object FormMain: TFormMain
+  Left = 519
+  Height = 240
+  Top = 250
+  Width = 320
+  Caption = 'Lapsha'
+  ClientHeight = 240
+  ClientWidth = 320
+  DesignTimePPI = 154
+  OnShow = FormShow
+  object PaintBox: TPaintBox
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 320
+    Align = alClient
+    OnPaint = PaintBoxPaint
+  end
+  object Timer: TTimer
+    Interval = 66
+    OnTimer = TimerTimer
+    Left = 200
+    Top = 48
+  end
+end
