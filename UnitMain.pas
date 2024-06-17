@@ -60,8 +60,8 @@ begin
         Y := J;
         for K := 0 to 57 do
         begin
-  		    Y := Y + Cos(X + 0.7 * Sin(3.0 * X + Time) - Time) * 0.1;
-  		    X := X - Sin(Y + 0.7 * Cos(4.0 * Y + Time * 1.323) - Time * 1.323) * 0.1;
+          Y := Y + Cos(X + 0.7 * Sin(3.0 * X + Time) - Time) * 0.1;
+          X := X - Sin(Y + 0.7 * Cos(4.0 * Y + Time * 1.323) - Time * 1.323) * 0.1;
 
           X2 := {%H-}X1;
           Y2 := {%H-}Y1;
