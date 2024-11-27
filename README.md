@@ -1,5 +1,7 @@
 # LapshaEffect
 
+[Powered By Lazarus (ObjectPascal)](https://www.lazarus-ide.org/)  
+
 ![scr](scr.png)
 
 Powered By Lazarus (ObjectPascal)
